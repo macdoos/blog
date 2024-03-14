@@ -5,7 +5,7 @@ if (!process.env.UPSTASH_REDIS_REST_TOKEN) {
 }
 
 const redis = new Redis({
-  url: process.env.UPSTASH_REDIS_REST_URL,
+  url: "https://eu1-welcomed-killdeer-40048.upstash.io",
   token: process.env.UPSTASH_REDIS_REST_TOKEN,
 });
 
