@@ -27,7 +27,7 @@ export const metadata = {
   },
   metadataBase: new URL("https://macdoos.dev"),
   icons: {
-    icon: '/icon.png',
+    icon: '/icon.ico',
   },
 };
 
