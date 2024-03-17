@@ -26,6 +26,9 @@ export const metadata = {
     creator: "@macdoos",
   },
   metadataBase: new URL("https://macdoos.dev"),
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export const viewport = {
