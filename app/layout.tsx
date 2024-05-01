@@ -1,39 +1,10 @@
-import "./globals.css";
-
-import { Inter } from "next/font/google";
-import { themeEffect } from "./theme-effect";
-import { Analytics } from "./analytics";
-import { Header } from "./header";
-import { Footer } from "./footer";
+import { Analytics } from "./blog/analytics";
 import { doge } from "./doge";
-
+import { Footer } from "./blog/footer";
+import { themeEffect } from "./theme-effect";
+import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata = {
-  title: "macdoos's blog",
-  description:
-    "internet baby girl",
-  openGraph: {
-    title: "macdoos's blog",
-    description:
-      "internet baby girl",
-    url: "https://macdoos.dev",
-    siteName: "macdoos's blog",
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@macdoos",
-    creator: "@macdoos",
-  },
-  metadataBase: new URL("https://macdoos.dev"),
-  icons: {
-    icon: '/icon.ico',
-  },
-};
-
-export const viewport = {
-  themeColor: "transparent",
-};
+import 'app/blog/globals.css';
 
 export default function RootLayout({
   children,
@@ -55,13 +26,7 @@ export default function RootLayout({
       </head>
 
       <body className="dark:text-gray-100 max-w-2xl m-auto">
-        <main className="p-6 pt-3 md:pt-6 min-h-screen">
-          <Header />
-          {children}
-        </main>
-
-        <Footer />
-        <Analytics />
+        <main className="p-6 pt-3 md:pt-6 min-h-screen">{children}</main>
       </body>
     </html>
   );

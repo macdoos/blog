@@ -1,5 +1,5 @@
-import postsData from "./posts.json";
-import redis from "./redis";
+import postsData from "../posts.json";
+import redis from "../redis";
 import commaNumber from "comma-number";
 
 export type Post = {
