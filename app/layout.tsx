@@ -4,7 +4,7 @@ import { Footer } from "./blog/footer";
 import { themeEffect } from "./theme-effect";
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
-import 'app/blog/globals.css';
+import './globals.css';
 
 export default function RootLayout({
   children,
@@ -26,7 +26,7 @@ export default function RootLayout({
       </head>
 
       <body className="dark:text-gray-100 max-w-2xl m-auto">
-        <main className="p-6 pt-3 md:pt-6 min-h-screen">{children}</main>
+        <main className="p-6 pt-3 md:pt-6 min-h-screen font-mono">{children}</main>
       </body>
     </html>
   );
