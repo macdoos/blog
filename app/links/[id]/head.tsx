@@ -17,7 +17,7 @@ export default function LinkHead({ params }: { params: { id: string } }) {
       <meta name="twitter:site" content="@macdoos" />
       <meta
         property="og:image"
-        content={`https://rauchg.com/og/${link.image}`}
+        content={`https://macdoos.dev/og/${link.image}`}
       />
     </>
   );

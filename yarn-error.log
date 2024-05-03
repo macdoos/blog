@@ -18,9 +18,9 @@ Trace:
 
 npm manifest: 
   {
-    "name": "rauchg-blog",
+    "name": "macdoos",
     "license": "MIT",
-    "description": "rauchg.com (blog)",
+    "description": "macdoos.dev",
     "dependencies": {
       "@fontsource/inter": "^4.5.15",
       "@fontsource/roboto-mono": "^4.5.10",

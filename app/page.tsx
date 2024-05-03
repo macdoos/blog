@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import avatar from "../public/avatar.jpg";
+import avatar from "../public/images/avatar.jpg"; 
 import MacdoosArabic from "./macdoos-arabic";
 
 export const revalidate = 60;
