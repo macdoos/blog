@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import avatar from "../public/avatar.jpg";
-import { Button } from "@/components/ui/button";
 
 export const revalidate = 60;
 
@@ -19,7 +18,7 @@ export default async function Home() {
             <MacdoosAR className="w-24 h-24 mt-20 ml-6" />
           </figcaption>
           <Image
-            alt="🙋🏻‍♀️"
+            alt="macdoos avatar"
             fetchPriority="high"
             width={96}
             height={59}
