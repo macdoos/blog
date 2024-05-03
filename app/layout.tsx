@@ -6,6 +6,27 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 import './globals.css';
 
+export const metadata = {
+  title: "macdoos",
+  description: "hacker larping as swe",
+  openGraph: {
+    title: "macdoos",
+    description: "hacker larping as swe",
+    url: "https://macdoos.dev",
+    siteName: "macdoos",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@macdoos",
+    creator: "@macdoos",
+  },
+  metadataBase: new URL("https://macdoos.dev"),
+  icons: {
+    icon: "/icon.ico",
+  },
+};
+
+
 export default function RootLayout({
   children,
 }: {
