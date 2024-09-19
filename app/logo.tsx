@@ -10,10 +10,10 @@ export function Logo() {
         <span className="cursor-default pr-2">macdoos</span>
       ) : (
         <Link
-          href="/"
+          href="/blog"
           className="hover:bg-gray-200 dark:hover:bg-[#313131] active:bg-gray-300 dark:active:bg-[#242424] p-2 rounded-sm -ml-2 transition-[background-color]"
         >
-          macdoos
+          @macdoos
         </Link>
       )}
     </span>

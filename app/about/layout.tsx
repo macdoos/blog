@@ -1,8 +1,6 @@
 import "../globals.css";
 
 import { MainHeader } from "../header";
-import { Footer } from "./footer";
-import { Analytics } from "./analytics";
 
 export const metadata = {
   title: "macdoos's blog",
@@ -37,8 +35,6 @@ export default function BlogLayout({
     <section>
       <MainHeader />
       {children}
-      <Footer />
-      <Analytics />
     </section>
   );
 }
