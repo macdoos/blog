@@ -7,13 +7,13 @@ const inter = Inter({ subsets: ["latin"] });
 import './globals.css';
 
 export const metadata = {
-  title: "macdoos",
+  title: "@macdoos",
   description: "hacker larping as swe",
   openGraph: {
-    title: "macdoos",
+    title: "@macdoos",
     description: "hacker larping as swe",
     url: "https://macdoos.dev",
-    siteName: "macdoos",
+    siteName: "@macdoos",
   },
   twitter: {
     card: "summary_large_image",
